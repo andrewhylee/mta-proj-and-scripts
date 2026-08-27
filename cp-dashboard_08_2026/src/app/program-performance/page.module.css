@@ -1,0 +1,265 @@
+.milestonesContainer {
+  display: flex;
+  flex-direction: row;  
+  align-items: start;
+  gap: 40px;
+}
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.scheduleBudgetTabs {
+  display: flex;
+
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--primary-black-text, #4a4a4a);
+  background: var(--white-color, #fff);
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 70vh;
+}
+
+.scheduleBudgetTab {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 5px;
+}
+
+.scheduleBudgetTab:hover {
+  cursor: pointer;
+  background: var(--primary-light-grey-background, #f2f2f2);
+}
+
+.scheduleBudgetTabActive {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 5px;
+
+  background: var(--secondary-active-blue-faded);
+  color: var(--blue-color);
+  font-weight: 700;
+
+  border: 1px solid var(--blue-color, #026cb6);
+}
+
+.scheduleBudgetTogglesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.scheduleBudgetToggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.greenToggleText {
+  color: var(--secondary-green, #008250);
+  font-weight: 700;
+}
+
+.redToggleText {
+  color: var(--secondary-red, #f00);
+  font-weight: 700;
+}
+
+.inactiveText {
+  color: var(--secondary-grey, #aaa);
+  font-weight: 400;
+}
+
+.toggleIndicator {
+  display: flex;
+  width: 70px;
+  padding: 4px;
+  align-items: center;
+  gap: 10px;
+  justify-content: left;
+
+  border-radius: 25px;
+  border: 1px solid var(--secondary-green, #008250);
+  background: var(--secondary-green, #008250);
+}
+
+.toggleIndicatorToggled {
+  display: flex;
+  width: 70px;
+  padding: 4px;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 25px;
+  background: var(--secondary-red, #f00);
+  justify-content: right;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: var(--font-display);
+  border-radius: 15px;
+}
+
+.tableIcon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+}
+
+.headerIconContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.headerIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+}
+
+.header {
+  background-color: #e5e5e6;
+}
+
+.row {
+  font-weight: 450;
+  font-size: 1rem;
+}
+
+.projectNameButton {
+  border: none;
+  background: var(--white-color);
+  color: var(--blue-color);
+  font-weight: 700;
+  cursor: pointer;
+  text-align: start;
+}
+
+.iconTextContainer {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+@media screen and (max-width: 1024px) {
+  .milestonesContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tableContainer {
+    width: 100%;
+  }
+
+  .chartContainer {
+    width: 100%;
+    height: 32vh;
+    /* height: auto; */
+  }
+
+  .scheduleBudgetTabs {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .scheduleBudgetTab {
+    justify-content: center;
+    height: auto;
+    font-size: 0.625rem; /* 10px */
+  }
+
+  .scheduleBudgetTabActive {
+    height: auto;
+    font-size: 0.625rem; /* 10px */
+  }
+
+  .scheduleBudgetTogglesContainer {
+    gap: 20px;
+  }
+
+  .greenToggleText {
+    font-size: 0.5625rem; /* 10px */
+  }
+
+  .redToggleText {
+    font-size: 0.5625rem; /* 10px */
+  }
+
+  .inactiveText {
+    font-size: 0.5625rem; /* 10px */
+  }
+
+  .toggleIndicator {
+    display: flex;
+    width: 39.28px;
+    padding: 2.245px;
+    align-items: center;
+    gap: 5.611px;
+  }
+
+  .toggleIndicatorToggled {
+    display: flex;
+    width: 39.28px;
+    padding: 2.245px;
+    align-items: center;
+    gap: 5.611px;
+  }
+
+  .toggleIcon {
+    width: 12.317px;
+    height: 12.317px;
+    flex-shrink: 0;
+    aspect-ratio: 12.32/12.32;
+  }
+
+  .headerIcon {
+    width: 12.317px;
+    height: 12.317px;
+    flex-shrink: 0;
+    aspect-ratio: 12.32/12.32;
+  }
+
+  .tableIcon {
+    width: 12.317px;
+    height: 12.317px;
+    flex-shrink: 0;
+    aspect-ratio: 12.32/12.32;
+  }
+
+  .row {
+    font-weight: 450;
+    font-size: 0.5625rem; /* 9px */
+  }
+
+  .header {
+    font-size: 0.5625rem; /* 9px */
+  }
+}

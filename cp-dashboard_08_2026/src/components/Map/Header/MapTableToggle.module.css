@@ -1,0 +1,59 @@
+.trackLabel {
+  background-color: var(--blue-color);
+}
+
+.trackThumb {
+  --switch-bg: var(--blue-color);
+}
+
+.mapToTableToggle {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: fit-content;
+  margin-left: 10px;
+}
+
+.selectedText {
+  color: var(--blue-color);
+}
+
+.unselectedText {
+  color: var(--secondary-gray-color);
+}
+
+.hoverCard {
+  background-color: var(--blue-color);
+}
+
+.hoverText {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.infoIcon {
+  color: var(--blue-color);
+}
+
+.toggleButton {
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .toggleButton {
+    display: none;
+  }
+
+  .infoIcon {
+    margin-right: 5px;
+  }
+
+  .tableToggleButton {
+    display: none;
+  }
+}

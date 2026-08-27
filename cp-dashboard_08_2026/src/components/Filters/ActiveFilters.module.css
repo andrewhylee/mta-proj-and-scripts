@@ -1,0 +1,124 @@
+.filter {
+  display:none;
+  font-size: .85rem;
+  font-weight: 700;
+  height: fit-content;
+  text-transform: capitalize;
+  padding: 8px 15px 9px;
+  background-color: white;
+  color: var(--secondary-gray-color);
+  align-content: center;
+  border: 1px solid var(--secondary-light-gray-color);
+}
+
+.filterHeader {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.filterGroup {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping of pills */
+  /* gap: 8px; Space between pills */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  /* padding: 8px 0; Optional padding for better spacing */
+  scrollbar-width: thin; /* For modern browsers */
+}
+
+.filterGroup::-webkit-scrollbar {
+  height: 6px; /* Height of the scrollbar */
+}
+
+.filterGroup::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+}
+
+.filterGroup::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Background of the scrollbar track */
+}
+
+.clearAllButton {
+  display: flex;
+  padding: 8px 15px 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+  border-radius: 4px;
+  color: var(--secondary-gray-color);
+  border: 1px solid var(--secondary-light-gray-color);
+  background: white;
+  font-size: 1.125rem;
+  font-weight: 700;
+
+  &:hover {
+    background-color: var(--secondary-gray-color);
+    color: white;
+  }
+}
+
+.clearAllButtonContainerMobile {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .filter {
+    display: flex;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    border-radius: 33px;
+    border: 1px solid var(--Secondary-Light-Grey, #a7a9ac);
+    background: var(--Primary-White, #fff);
+    margin-bottom: 10px;
+  }
+
+  .mobileDivider {
+    height: 26px;
+    margin-top: 2px;
+    border: 1px solid var(--secondary-gray-color);
+    margin-left: 12px;
+  }
+
+  .filterHeader {
+    display: none;
+    padding: 0px 20px;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+  }
+
+  .clearAllButtonContainerMobile {
+    display: flex;
+  }
+
+  .clearAllButtonContainer {
+    display: none;
+  }
+
+  .clearAllButton {
+    color: var(--Primary-Active-Blue, #026cb6);
+
+    /* P3/Bold */
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+
+    display: flex;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 4px;
+    border: 1px solid var(--Primary-Active-Blue, #026cb6);
+    background: var(--secondary-active-blue-faded, #e6f0f8);
+  }
+}

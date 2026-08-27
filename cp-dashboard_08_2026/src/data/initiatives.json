@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Enabled by Congestion Relief",
+    "description": "Enabled by revenue generated from the Congestion Relief Zone toll, the MTA is undertaking some of the region’s most important transit capital projects, benefitting millions of daily transit riders such as modern signal systems, more accessible stations, and other critical improvements that keep our system in good working condition and ensure riders have faster and more reliable commutes. ",
+    "projects": []
+  },
+  {
+    "title": "Accessibility",
+    "description": "The MTA aims to make 95% of subway and Staten Island Railway stations accessible by 2055. This involves installing elevators and ramps at numerous stations.",
+    "projects": []
+  },
+  {
+    "title": "Resilience",
+    "description": "To enhance the system's ability to withstand extreme weather events and other disruptions, the MTA is focusing on upgrading infrastructure to be more resilient. This includes reinforcing tunnels, bridges, and other critical assets to better handle climate-related challenges.",
+    "projects": []
+  },
+  {
+    "title": "Sustainability",
+    "description": "The MTA is committed to reducing its environmental impact by transitioning to a zero-emission bus fleet and incorporating sustainable practices in its operations. This includes investing in energy-efficient technologies and infrastructure to promote a greener transit system.",
+    "projects": []
+  },
+  {
+    "title": "Signal Modernization",
+    "description": "Modernizing the subway's signaling system is a key priority. The MTA plans to expand the use of Communications-Based Train Control (CBTC) across more lines, which will improve service reliability, reduce delays, and allow for increased train frequency.",
+    "projects": []
+  },
+  {
+    "title": "Safety",
+    "description": "Enhancing passenger safety includes initiatives such as installing platform-edge barriers to prevent track intrusions and upgrading surveillance systems. The MTA is also exploring new technologies and designs to improve overall safety for riders and staff.",
+    "projects": []
+  },
+  {
+    "title": "System Expansion",
+    "description": "The MTA is working on expanding transit services to underserved areas. Projects include extending existing lines and adding new routes to improve connectivity and meet growing demand. These expansions aim to provide more equitable access to transit across the region.",
+    "projects": []
+  },
+  {
+    "title": "Reliability",
+    "description": "To ensure consistent and dependable service, the MTA is investing in replacing aging infrastructure, such as tracks and rolling stock. Upgrades to power systems and maintenance facilities are also planned to reduce service disruptions and enhance overall reliability.",
+    "projects": []
+  }
+]

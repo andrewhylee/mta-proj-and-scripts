@@ -1,0 +1,12 @@
+[
+  {
+    "name": "capitalPlans",
+    "options": [
+      { "value": 9, "label": "Capital Plan 2025 - 2029 (Current)" },
+      { "value": 8, "label": "Capital Plan 2020 - 2024" },
+      { "value": 7, "label": "Capital Plan 2015 - 2019" },
+      { "value": 6, "label": "Capital Plan 2010 - 2014" },
+      { "value": 5, "label": "Capital Plan 2005 - 2009" }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+.mobileNav {
+  width: 100%;
+  background-color: var(--white-color);
+}
+
+.navLink {
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 16px;
+  padding-bottom: 4px; /* Adjust as needed */
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid var(--primary-light-gray-background); /* Default border color */
+}

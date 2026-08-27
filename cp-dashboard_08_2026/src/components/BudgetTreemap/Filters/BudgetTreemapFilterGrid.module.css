@@ -1,0 +1,39 @@
+.filterGrid {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.input input {
+  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--primary-black-text, #4a4a4a);
+}
+
+.input {
+  min-width: 255px;
+}
+
+.clearAllButton {
+  display: flex;
+  padding: 8px 15px 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  width: 155px;
+
+  border-radius: 2px;
+  border: 3px solid var(--blue-color, #026cb6);
+  background: var(--white-color, #fff);
+}
+
+.clearAllButton:hover {
+  cursor: pointer;
+  background: var(--dark-blue-color);
+  color: var(--white-color, #fff);
+}

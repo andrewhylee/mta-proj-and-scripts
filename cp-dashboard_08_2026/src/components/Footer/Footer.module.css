@@ -1,0 +1,184 @@
+.footer {
+  background-color: var(--black-color);
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 700;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;  
+  max-height: 198px;
+  margin-top: 15px;
+}
+
+.footerContent {
+  display: flex;
+  padding: 28px 38px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.footerContent a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footerContent a:hover {
+  color: var(--yellow-color);
+}
+
+.stackAndCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+}
+
+.linksGroup {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.footerLine {
+  font-size: 1.125rem;
+  display: flex;
+  width: 233px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 9px;
+  align-self: stretch;
+}
+
+#mta-logo {
+  align-items: right;
+}
+
+.tabletOnlyDivider {
+  display: none;
+}
+
+.mobileTitle {
+  display: none;
+  color: var(--white-color);
+  margin: 5px 0 15px;
+  font-weight: 450;
+  font-size: 0.8rem;
+}
+
+.backToTopParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 130px;
+}
+
+a.backToTop {
+  color: var(--yellow-color);
+  padding-top: 0px;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+}
+
+a.backToTop:hover {
+  background-color: var(--black-color);
+}
+
+.footerCol {
+  width: 233px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  flex: 1; /* Ensure equal width for each column */
+}
+
+.footerCol a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.flexBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 33.33vw;
+}
+
+.centerLink {
+  display: flex;
+  align-items: center; /* Vertically center the link */
+  justify-content: center; /* Horizontally center the link */
+  width: 100%; /* Ensure the link spans the full width of the div */
+}
+
+.footerMobile {
+  display: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  width: 100%;
+  align-items: center;
+}
+
+/* Media Queries */
+/* @media screem and (min-width: 850px) and (max-width: 1024px) {
+  .linksGroup {
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    align-self: stretch;
+    width: 100%;
+  }
+} */  
+
+@media (min-width: 320px) and (max-width: 850px) {
+  .footerContent {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    height: auto;
+    width: 100%;
+  }
+
+  .divider {
+    stroke-width: 1px;
+    stroke: var(--white-color);
+  }
+
+  .dividerDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footerMobile {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .mobileLink {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .mobileLink a {
+    color: var(--yellow-color);
+    text-decoration: none;
+  }
+
+  .mobileTitle {
+    display: block;
+    margin: 5px 0 15px;
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "cacheKey": "acepData",
+    "updateDate": "2025-09-15T00:00:00Z",
+    "description": "List of ACEPs used for search lookup."
+  },
+  {
+    "cacheKey": "facility_projects_csv",
+    "updateDate": "2025-10-07T00:00:00Z",
+    "description": "List of facility projects."
+  },
+  {
+    "cacheKey": "layerData_B_and_T/FeatureServer/0",
+    "updateDate": "2025-09-20T00:00:00Z",
+    "description": "Geojson for bridge and tunnel features."
+  },
+  {
+    "cacheKey": "layerData_Boroughs/FeatureServer/0",
+    "updateDate": "2025-09-15T00:00:00Z",
+    "description": "Geojson for borough features."
+  },
+  {
+    "cacheKey": "layerData_Counties/FeatureServer/0",
+    "updateDate": "2025-09-15T00:00:00Z",
+    "description": "Geojson for county features."
+  },
+  {
+    "cacheKey": "layerData_County_Labels/FeatureServer/0",
+    "updateDate": "2025-09-20T00:00:00Z",
+    "description": "Geojson for county label features."
+  },
+  {
+    "cacheKey": "layerData_Facilities/FeatureServer/0",
+    "updateDate": "2025-09-20T00:00:00Z",
+    "description": "Geojson for facility features."
+  },
+  {
+    "cacheKey": "layerData_Major_Highways/FeatureServer/0",
+    "updateDate": "2025-09-20T00:00:00Z",
+    "description": "Geojson for major highway features."
+  },
+  {
+    "cacheKey": "layerData_LIRR_lines/FeatureServer/0",
+    "updateDate": "2025-09-20T00:00:00Z",
+    "description": "Geojson for LIRR line features."
+  },
+  {
+    "cacheKey": "layerData_Land/FeatureServer/0",
+    "updateDate": "2025-09-20T00:00:00Z",
+    "description": "Geojson for land features."
+  },
+  {
+    "cacheKey": "layerData_MNR_lines/FeatureServer/0",
+    "updateDate": "2025-09-20T00:00:00Z",
+    "description": "Geojson for MNR line features."
+  },
+  {
+    "cacheKey": "layerData_Parks/FeatureServer/0",
+    "updateDate": "2025-09-20T00:00:00Z",
+    "description": "Geojson for park features."
+  },
+  {
+    "cacheKey": "layerData_State_Lines/FeatureServer/0",
+    "updateDate": "2025-09-20T00:00:00Z",
+    "description": "Geojson for state line features."
+  },
+  {
+    "cacheKey": "layerData_Subway_lines/FeatureServer/0",
+    "updateDate": "2025-09-20T00:00:00Z",
+    "description": "Geojson for subway line features."
+  }
+]

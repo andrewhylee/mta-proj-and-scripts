@@ -1,0 +1,38 @@
+
+.comboboxOption {
+  border-bottom: 1px solid white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.inputBase {
+  min-width: 110px;
+  max-width: fit-content;
+  height: 39px;
+  background: var(--yellow-color); /* Yellow background */
+  color: black; /* Black text for contrast */
+  font-weight: 700; /* Optional: Make text bold */
+  border: none; /* Remove border */  
+  cursor: pointer; /* Show pointer cursor */
+}
+
+.inputBase:hover {
+  background-color: var(--yellow-color); /* Darker yellow on hover */
+}
+
+.inputBase * {
+  background-color: inherit; /* Inherit the background color from the parent */
+  color: inherit; /* Inherit the text color from the parent */
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 850px) {
+  .inputBase {    
+    /* min-width: 75px; */
+    font-size: 0.825rem; /* Smaller font size for smaller screens */
+  }
+
+  .inputBase * {
+    font-size: 0.825rem; /* Smaller font size for smaller screens */
+  }
+}

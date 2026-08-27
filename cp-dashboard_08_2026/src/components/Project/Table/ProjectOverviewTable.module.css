@@ -1,0 +1,61 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: var(--font-display);
+}
+
+.header {
+  background-color: var(--yellow-color);
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.smallText {
+  font-size: 0.625rem;
+}
+
+.projectNameButton {
+  border: none;
+  background: var(--white-color);
+  color: var(--blue-color);
+  font-weight: 700;
+  cursor: pointer;
+  text-align: start;
+  white-space: nowrap;
+}
+
+.row {
+  font-weight: 450;
+  font-size: 1.125rem;
+}
+
+.activeStatusContainer {
+  width: 9px;
+  height: 9px;
+}
+
+.phaseContainer {
+  display: flex;
+  width: 150px;
+  gap: 10px;
+}
+
+.budget {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 0.75rem;
+  }
+
+  .row {
+    font-size: 0.75rem;
+  }
+
+  .phaseContainer {
+    width: 100px;
+  }
+}

@@ -1,0 +1,104 @@
+.busDataCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 20px;
+  flex: 1 0 0;
+}
+
+.icon {
+  height: 32px;
+  flex-shrink: 0;
+  align-self: stretch;
+  aspect-ratio: 22/20.63;
+}
+
+.title {
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.buttonGroupTitle {
+  font-weight: 450;
+}
+
+.busHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  align-self: stretch;
+}
+
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.boroughButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.boroughButton {
+  display: flex;
+  padding: 8px 15px 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;  
+  width: 155px;
+
+  border-radius: 2px;
+  border: 3px solid var(--blue-color, #026cb6);
+  background: var(--white-color, #fff);
+}
+
+.boroughButton:hover {
+  cursor: pointer;
+  background: var(--dark-blue-color);
+  color: var(--white-color, #fff);
+}
+
+.boroughButton:disabled {
+  /* background: var(--secondary-light-gray-color, #a7a9ac);
+  color: var(--white-color, #fff); */
+  opacity: 0.5;
+
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 800px) {
+  .busDataCard {
+    gap: 15px;
+  }
+
+  .buttonGroupTitle {
+    font-size: 0.75rem;
+  }
+
+  .buttonRow {
+    gap: 10px;
+  }
+
+  .boroughButton {
+    padding: 8px;
+    font-size: 0.625rem;
+  }
+
+  .bulletImage {
+    display: flex;
+    width: 10px;
+    height: 10px;
+  }
+
+  .title {
+    display: none;
+  }
+}

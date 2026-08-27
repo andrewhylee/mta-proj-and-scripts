@@ -1,0 +1,20 @@
+.subAccordionPanel {
+  background: var(--white-color);
+}
+
+.subAccordionControl {
+  background: var(--white-color);
+  color: var(--black-color);
+  font-weight: 700;
+}
+
+.subAccordionLabel {
+  color: var(--black-color);  
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .subAccordionLabel {
+    font-size: 0.75rem;
+  }
+}

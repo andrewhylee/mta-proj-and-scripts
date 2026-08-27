@@ -1,0 +1,34 @@
+.budgetTreemapContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  height: full;
+  background-color: inherit;
+  min-width: 200px;
+}
+
+.treemaps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.treemap {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* Mobile responsive styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .budgetTreemapContainer {
+    margin: 0 40px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .budgetTreemapContainer {
+    margin: 0;
+    gap: 16px;
+  }
+}

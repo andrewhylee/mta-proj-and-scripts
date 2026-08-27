@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  width: 100%;   
+  min-width: 1280px;   
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.dividerContainer {
+  height: 486px;
+  overflow: hidden;
+}
+
+.servicesContainer {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  background: #fff;
+
+  /* SHADOW */
+  box-shadow: 4px 4px 10px 0px rgb(0 0 0 / 0.2);
+}
+
+.dataCard {
+  display: flex;
+  min-width:  705px;
+  padding: 40px 20px;
+  align-items: flex-start;
+  gap: 30px;
+  flex: 1 0 0;
+}
+
+.mobileContainer {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    display: none;
+  }
+
+  .accordion {
+    width: 100%;
+  }
+
+  .accordionPanel {
+    background: var(--blue-color);
+  }
+
+  .subAccordionPanel {
+    background: var(--white-color);
+  }
+
+  .accordionControl {
+    background: var(--blue-color);
+    color: var(--white-color);
+
+    font-weight: 700;
+
+    /* SHADOW */
+    box-shadow: 4px 4px 10px 0px rgb(0 0 0 / 0.2);
+  }
+
+  .accordionLabel {
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .accordionContent {
+    padding: 0;
+  }
+
+  .mobileContainer {
+    display: flex;
+    width: 100%;    
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .servicesContainer {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dataCard {
+    padding: 20px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .mobileDoubleColumn {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  padding: 16px 20px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  color: var(--white-color);
+
+  background: var(--blue-color, #f2f2f2);
+}
+
+.header h2 {
+  width: 100%;
+}
+
+.closeButton {
+  color: var(--white-color);
+
+  &:hover {
+    background: var(--dark-blue-color);
+  }
+}
+
+.serviceGroup {
+  font-weight: 450;
+}
+
+.serviceItem {
+  font-weight: 700;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 10px;
+}

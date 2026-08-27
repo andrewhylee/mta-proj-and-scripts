@@ -1,0 +1,7 @@
+.selected {
+  background-color: var(--gray-color);
+}
+
+.check {
+  color: var(--yellow-color);
+}

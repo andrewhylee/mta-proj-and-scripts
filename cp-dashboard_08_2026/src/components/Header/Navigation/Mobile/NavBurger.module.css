@@ -1,0 +1,17 @@
+.menuText {
+  font-size: 10px;
+  margin-left: 3px;
+  color: white;
+}
+
+.exitIcon {
+  display: none;
+}
+
+.drawerHeader {
+  display: block;
+}
+
+.drawerContent {
+  left: 0;
+}

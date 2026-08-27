@@ -1,0 +1,82 @@
+.mapPageContainer {
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: start;
+  align-self: stretch;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  /* margin: 0 38px; */
+}
+
+.toggleParent {
+  display: flex;
+}
+
+.mapHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.mapTableContainer {
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1 0 0;
+  align-self: stretch;
+
+  /* SHADOW */
+  box-shadow: 4px 4px 10px 0px rgb(0 0 0 / 0.2);
+}
+
+.mapHeaderMobile {
+  display: none;
+}
+/* 
+@media (min-width: 850px) and (max-width: 1024px) {
+  .mapPageContainer {
+    margin: 0 40px;
+    flex-grow: 1;
+  }
+} */
+
+@media (min-width: 320px) and (max-width: 850px) {
+  .mapHeader {
+    display: none;
+  }
+
+  .mapHeaderMobile {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mapHeaderMobileTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .mapHeaderMobileBottom {
+    width: 100%;
+    display: flex;
+  }
+
+  .mapPageContainer {
+    display: flex;
+    margin: 0 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+    flex-grow: 1;
+  }
+}

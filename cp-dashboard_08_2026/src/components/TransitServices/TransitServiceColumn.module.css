@@ -1,0 +1,59 @@
+.dataColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1 0 0;
+}
+
+.lineItem {
+  font-family: var(--font-display);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  background-color: var(--white-color);
+  border: none;
+}
+
+
+
+.lineItemText {
+  font-weight: 450;
+  white-space: nowrap;
+}
+
+.lineItemHover {
+  cursor: pointer;
+  color: var(--dark-blue-color);
+  font-weight: 700;
+}
+
+.title {
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .dataCard {
+    gap: 15px;
+  }
+
+  .dataColumn {
+    gap: 10px;
+  }
+
+  .lineItemText {
+    font-size: 0.625rem;
+  }
+
+  .lineItem {
+    gap: 10px;
+    font-size: 0.625rem;
+  }
+
+  .title {
+    display: none;
+  }
+}

@@ -1,0 +1,114 @@
+.budgetOverviewContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  flex-direction: column;
+  justify-content: space-between; /* Distribute items evenly with space between */
+  gap: 15px; /* Add spacing between cards */  
+  max-width: 100%; /* Prevent the container from exceeding the viewport width */
+  background-color: inherit; /* Inherit background color */
+}
+
+.mapToggleContainer {
+  align-self: flex-end;
+}
+
+.show {
+  display: block;
+}
+
+.noShow {
+  display: none;
+}
+
+.icon {
+  width: rem(13px);
+  height: auto;
+  vertical-align: rem(-1px);
+  margin-right: rem(8px);
+}
+
+.expandIcon {
+  transition: transform 0.2s;
+}
+
+.expandIconRotated {
+  transform: rotate(90deg);
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: var(--font-display);
+}
+
+.header {
+  background-color: var(--yellow-color);
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 1.125rem;
+  white-space: normal !important; /* Override default nowrap behavior */
+  word-wrap: break-word; /* Ensure long words break */
+}
+
+.smallText {
+  font-size: 0.625rem;
+}
+
+.row {
+  font-weight: 450;
+  font-size: 1.125rem;
+}
+
+.nestedTable {
+  margin-left: 10px;
+}
+
+.acepButton {
+  border: none;
+  background: var(--white-color);
+  color: var(--blue-color);
+  font-weight: 700;
+  cursor: pointer;
+  text-align: start;
+  white-space: nowrap;
+}
+
+.disclaimer {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  font-size: 0.875rem;
+  color: var(--gray-color);
+  gap: 10px;
+}
+
+.asterisk {
+  color: red;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 850px) {
+  .budgetOverviewContainer {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+  }
+
+  .icon {
+    width: rem(10px);
+    margin-right: rem(6px);
+  }
+
+  .header {
+    font-size: 1rem;
+  }
+
+  .row {
+    font-size: 1rem;
+  }
+
+  .smallText {
+    font-size: 0.5rem;
+  }
+}

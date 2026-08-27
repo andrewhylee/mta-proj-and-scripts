@@ -1,0 +1,16 @@
+.filterIcon {
+  color: #000;
+  transition: all 0.3s ease;
+  background-color: var(--yellow-color);
+  border-radius: 0.125rem;
+  --ai-size: 2.25rem;
+
+  &:hover {
+    background-color: var(--blue-color);
+    color: white;
+  }
+}
+
+.exitIcon {
+  display: none;
+}

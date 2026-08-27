@@ -1,0 +1,84 @@
+.paginatedList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 45%;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.bulletImage {
+  width: 15px;
+  height: 15px;
+}
+
+.listItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.arrowButtonIcon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.arrowButton {
+  border: none;
+  border-radius: 20px;
+  background: var(--primary-light-grey-background, #f2f2f2);
+}
+
+.arrowButton:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.paginationDots {
+  display: flex;
+  gap: 5px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.activeDot {
+  background-color: #026cb6;
+}
+
+.arrowButtonContainer {
+  display: flex;
+  width: 27px;
+  height: 27px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+  background: var(--primary-light-grey-background, #f2f2f2);
+}

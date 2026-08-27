@@ -1,0 +1,541 @@
+[
+    {
+        "agency": "NYCT",
+        "designation": "A",
+        "id": "NYCT-A",
+        "name": "A train",
+        "color": "#2850AD",
+        "textColor": "#FFFFFF",
+        "description": "Runs from Inwood-207 St in Manhattan to either Far Rockaway-Mott Av or Lefferts Blvd in Queens. Covers Manhattan, Brooklyn, and Queens over about 32 miles via the Eighth Ave, Fulton St, Liberty Ave, and Rockaway lines.",
+        "order": 8
+    },
+    {
+        "agency": "NYCT",
+        "designation": "B",
+        "id": "NYCT-B",
+        "name": "B train",
+        "color": "#FF6319",
+        "textColor": "#FFFFFF",
+        "description": "Connects Bedford Park Blvd in the Bronx to Brighton Beach in Brooklyn. Operates across the Bronx, Manhattan, and Brooklyn for about 20 miles on the Concourse, Sixth Ave, and Brighton lines.",
+        "order": 11
+    },
+    {
+        "agency": "NYCT",
+        "designation": "C",
+        "id": "NYCT-C",
+        "name": "C train",
+        "color": "#2850AD",
+        "textColor": "#FFFFFF",
+        "description": "Travels from 168 St in Manhattan to Euclid Ave in Brooklyn. Covers Manhattan and Brooklyn on a 19-mile route along the Eighth Ave and Fulton St lines.",
+        "order": 9
+    },
+    {
+        "agency": "NYCT",
+        "designation": "D",
+        "id": "NYCT-D",
+        "name": "D train",
+        "color": "#FF6319",
+        "textColor": "#FFFFFF",
+        "description": "Extends from Norwood-205 St in the Bronx to Coney Island in Brooklyn. Serves the Bronx, Manhattan, and Brooklyn over 26 miles on the Concourse, Central Park West, Sixth Ave, Fourth Ave, and West End lines.",
+        "order": 12
+    },
+    {
+        "agency": "NYCT",
+        "designation": "E",
+        "id": "NYCT-E",
+        "name": "E train",
+        "color": "#2850AD",
+        "textColor": "#FFFFFF",
+        "description": "Runs between Jamaica Center in Queens and World Trade Center in Manhattan. About 15 miles via the Queens Blvd, 53rd St, and Eighth Ave lines.",
+        "order": 10
+    },
+    {
+        "agency": "NYCT",
+        "designation": "F",
+        "id": "NYCT-F",
+        "name": "F train",
+        "color": "#FF6319",
+        "textColor": "#FFFFFF",
+        "description": "Links Jamaica-179 St in Queens to Coney Island in Brooklyn. Operates across Queens, Manhattan, and Brooklyn for 27 miles on the Queens Blvd, 63rd St, Sixth Ave, and Culver lines.",
+        "order": 13
+    },
+    {
+        "agency": "NYCT",
+        "designation": "G",
+        "id": "NYCT-G",
+        "name": "G train",
+        "color": "#6CBE45",
+        "textColor": "#FFFFFF",
+        "description": "Crosstown service from Court Sq in Queens to Church Ave in Brooklyn. About 11 miles via the Crosstown and Culver lines, serving Queens and Brooklyn.",
+        "order": 15
+    },
+    {
+        "agency": "NYCT",
+        "designation": "J",
+        "id": "NYCT-J",
+        "name": "J train",
+        "color": "#996633",
+        "textColor": "#FFFFFF",
+        "description": "Travel from Jamaica Center in Queens to Broad St in Manhattan. Cover 14 miles across Queens, Brooklyn, and Manhattan on the Archer Ave, Jamaica, Williamsburg Bridge, and Nassau St lines.",
+        "order": 16
+    },
+    {
+        "agency": "NYCT",
+        "designation": "L",
+        "id": "NYCT-L",
+        "name": "L train",
+        "color": "#A7A9AC",
+        "textColor": "#FFFFFF",
+        "description": "Connects 8th Ave in Manhattan to Canarsie-Rockaway Pkwy in Brooklyn. 10 miles entirely on the Canarsie Line, serving Manhattan and Brooklyn.",
+        "order": 18
+    },
+    {
+        "agency": "NYCT",
+        "designation": "M",
+        "id": "NYCT-M",
+        "name": "M train",
+        "color": "#FF6319",
+        "textColor": "#FFFFFF",
+        "description": "Runs from Metropolitan Ave in Queens through Manhattan to Forest Hills-71 Ave in Queens. About 13 miles via the Myrtle Ave, Williamsburg Bridge, Sixth Ave, and Queens Blvd lines.",
+        "order": 14
+    },
+    {
+        "agency": "NYCT",
+        "designation": "N",
+        "id": "NYCT-N",
+        "name": "N train",
+        "color": "#FCCC0A",
+        "textColor": "#000000",
+        "description": "Operates between Astoria-Ditmars Blvd in Queens and Coney Island in Brooklyn. 20-mile route serving Queens, Manhattan, and Brooklyn via the Astoria, 60th St Tunnel, Broadway, Manhattan Bridge, Fourth Ave, and Sea Beach lines.",
+        "order": 19
+    },
+    {
+        "agency": "NYCT",
+        "designation": "Q",
+        "id": "NYCT-Q",
+        "name": "Q train",
+        "color": "#FCCC0A",
+        "textColor": "#000000",
+        "description": "Runs from 96th St on Second Ave in Manhattan to Coney Island in Brooklyn. Covers about 17 miles using the Second Ave, Broadway, Manhattan Bridge, and Brighton lines.",
+        "order": 20
+    },
+    {
+        "agency": "NYCT",
+        "designation": "R",
+        "id": "NYCT-R",
+        "name": "R train",
+        "color": "#FCCC0A",
+        "textColor": "#000000",
+        "description": "Local service between Forest Hills-71 Ave in Queens and Bay Ridge-95 St in Brooklyn. 14 miles via the Queens Blvd, 60th St Tunnel, Broadway, Montague St Tunnel, and Fourth Ave lines.",
+        "order": 21
+    },
+    {
+        "agency": "NYCT",
+        "designation": "S",
+        "id": "NYCT-GS",
+        "name": "42 Street Shuttle",
+        "color": "#808183",
+        "textColor": "#FFFFFF",
+        "description": "Short shuttle linking Times Sq and Grand Central in Manhattan. Less than a mile on the 42nd St Line.",
+        "order": 23
+    },
+    {
+        "agency": "NYCT",
+        "designation": "SF",
+        "id": "NYCT-FS",
+        "name": "Franklin Avenue Shuttle",
+        "color": "#808183",
+        "textColor": "#FFFFFF",
+        "description": "Connects Franklin Ave and Prospect Park in Brooklyn. 1.5 miles on the Franklin Ave Line.",
+        "order": 26
+    },
+    {
+        "agency": "NYCT",
+        "designation": "SR",
+        "id": "NYCT-H",
+        "name": "Rockaway Park Shuttle",
+        "color": "#808183",
+        "textColor": "#FFFFFF",
+        "description": "Runs between Broad Channel and Rockaway Park in Queens. About 4 miles on the Rockaway Line.",
+        "order": 25
+    },
+    {
+        "agency": "NYCT",
+        "designation": "W",
+        "id": "NYCT-W",
+        "name": "W train",
+        "color": "#FCCC0A",
+        "textColor": "#000000",
+        "description": "Operates between Astoria-Ditmars Blvd in Queens and Whitehall St in Manhattan. Covers 11 miles on the Astoria, 60th St Tunnel, and Broadway lines.",
+        "order": 22
+    },
+    {
+        "agency": "NYCT",
+        "designation": "Z",
+        "id": "NYCT-Z",
+        "name": "Z train",
+        "color": "#996633",
+        "textColor": "#FFFFFF",
+        "description": "Travel from Jamaica Center in Queens to Broad St in Manhattan. Cover 14 miles across Queens, Brooklyn, and Manhattan on the Archer Ave, Jamaica, Williamsburg Bridge, and Nassau St lines.",
+        "order": 17
+    },
+    {
+        "agency": "NYCT",
+        "designation": "1",
+        "id": "NYCT-1",
+        "name": "1 train",
+        "color": "#EE352E",
+        "textColor": "#FFFFFF",
+        "description": "Local service from Van Cortlandt Park-242 St in the Bronx to South Ferry in Manhattan. Entirely on the Broadway-Seventh Ave Line, spanning 15 miles.",
+        "order": 1
+    },
+    {
+        "agency": "NYCT",
+        "designation": "2",
+        "id": "NYCT-2",
+        "name": "2 train",
+        "color": "#EE352E",
+        "textColor": "#FFFFFF",
+        "description": "Runs between Wakefield-241 St in the Bronx and Flatbush Ave in Brooklyn. About 20 miles via the White Plains Rd, Lexington Ave, Eastern Pkwy, and Nostrand Ave lines.",
+        "order": 2
+    },
+    {
+        "agency": "NYCT",
+        "designation": "3",
+        "id": "NYCT-3",
+        "name": "3 train",
+        "color": "#EE352E",
+        "textColor": "#FFFFFF",
+        "description": "Connects Harlem-148 St in Manhattan to New Lots Ave in Brooklyn. 14 miles via the Lenox Ave, Broadway-Seventh Ave, Eastern Pkwy, and New Lots lines.",
+        "order": 3
+    },
+    {
+        "agency": "NYCT",
+        "designation": "4",
+        "id": "NYCT-4",
+        "name": "4 train",
+        "color": "#00933C",
+        "textColor": "#FFFFFF",
+        "description": "Runs from Woodlawn in the Bronx to Crown Hts-Utica Ave in Brooklyn. 16 miles via the Jerome Ave, Lexington Ave, and Eastern Pkwy lines.",
+        "order": 4
+    },
+    {
+        "agency": "NYCT",
+        "designation": "5",
+        "id": "NYCT-5",
+        "name": "5 train",
+        "color": "#00933C",
+        "textColor": "#FFFFFF",
+        "description": "Operates between Eastchester-Dyre Ave in the Bronx and Flatbush Ave in Brooklyn. 19 miles across the Dyre Ave, White Plains Rd, Lexington Ave, Eastern Pkwy, and Nostrand Ave lines.",
+        "order": 5
+    },
+    {
+        "agency": "NYCT",
+        "designation": "6",
+        "id": "NYCT-6",
+        "name": "6 train",
+        "color": "#00933C",
+        "textColor": "#FFFFFF",
+        "description": "Local service between Pelham Bay Park in the Bronx and Brooklyn Bridge-City Hall in Manhattan. 12 miles on the Pelham and Lexington Ave lines.",
+        "order": 6
+    },
+    {
+        "agency": "NYCT",
+        "designation": "7",
+        "id": "NYCT-7",
+        "name": "7 train",
+        "color": "#B933AD",
+        "textColor": "#FFFFFF",
+        "description": "Runs from Flushing-Main St in Queens to 34th St-Hudson Yards in Manhattan. 10 miles along the Flushing Line.",
+        "order": 7
+    },
+    {
+        "agency": "NYCT",
+        "designation": "SIR",
+        "id": "NYCT-SIR",
+        "name": "Staten Island Railway",
+        "color": "#2850AD",
+        "textColor": "#FFFFFF",
+        "description": "Operates from St. George to Tottenville along Staten Island's east shore. 14 miles on the SIR main line.",
+        "order": 27
+    },
+    {
+        "agency": "NYCT",
+        "designation": "BK",
+        "id": "NYCT-BK",
+        "name": "Brooklyn Buses",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Transit service runs across Brooklyn, from Bay Ridge to East New York, along approximately 60 local and express bus routes. Brooklyn service is supported by 6 depots."
+    },
+    {
+        "agency": "NYCT",
+        "designation": "MN",
+        "id": "NYCT-MN",
+        "name": "Manhattan Buses",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Transit service operates throughout Manhattan, from Inwood to the Financial District, along approximately 90 local and express bus routes. Buses serving Manhattan are dispatched from 5 depots."
+    },
+    {
+        "agency": "NYCT",
+        "designation": "BX",
+        "id": "NYCT-BX",
+        "name": "Bronx Buses",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Transit service runs throughout the Bronx, from Riverdale to Throggs Neck, along approximately 50 local and express bus routes. Bronx service is supported by 5 depots, including one located just over the city line in Yonkers."
+    },
+    {
+        "agency": "NYCT",
+        "designation": "QN",
+        "id": "NYCT-QN",
+        "name": "Queens Buses",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Transit service runs across Queens, from Long Island City to the Rockaways, along approximately 80 local and express bus routes. Queens is served by 8 depots."
+    },
+    {
+        "agency": "NYCT",
+        "designation": "SI",
+        "id": "NYCT-SI",
+        "name": "Staten Island Buses",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Transit service operates throughout Staten Island, from St. George to Tottenville, along approximately 40 local and express bus routes. Staten Island is supported by 3 depots."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "1",
+        "id": "LIRR-1",
+        "name": "Babylon",
+        "color": "#00985F",
+        "textColor": "#FFFFFF",
+        "description": "Transit service runs from Jamaica to Babylon using fully electrified third-rail infrastructure across a mix of grade-separated and at-grade tracks."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "2",
+        "id": "LIRR-2",
+        "name": "Hempsted",
+        "color": "#CE8E00",
+        "textColor": "#121212",
+        "description": "Transit service operates between Jamaica and Hempstead, using third-rail electrification over primarily at-grade alignment."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "3",
+        "id": "LIRR-3",
+        "name": "Oyster Bay",
+        "color": "#00AF3F",
+        "textColor": "#FFFFFF",
+        "description": "Transit service runs between Mineola and Oyster Bay, operating on mostly at-grade track and using diesel power beyond the electrified zone."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "4",
+        "id": "LIRR-4",
+        "name": "Ronkonkoma",
+        "color": "#A626AA",
+        "textColor": "#FFFFFF",
+        "description": "Transit service connects Hicksville and Ronkonkoma along the Main Line, with third-rail electrification for its electrified segment and primarily at-grade track."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "5",
+        "id": "LIRR-5",
+        "name": "Montauk",
+        "color": "#00B2A9",
+        "textColor": "#121212",
+        "description": "Transit service extends from Babylon out to Montauk, transitioning from electrified territory to diesel service, chiefly on at-grade track."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "6",
+        "id": "LIRR-6",
+        "name": "Long Beach",
+        "color": "#FF6319",
+        "textColor": "#FFFFFF",
+        "description": "Transit service covers the route from Valley Stream to Long Beach, fully electrified using third rail over mainly at-grade track."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "7",
+        "id": "LIRR-7",
+        "name": "Far Rockaway",
+        "color": "#6E3219",
+        "textColor": "#FFFFFF",
+        "description": "Transit service runs from Valley Stream to Far Rockaway, utilizing full electrification on mostly at-grade track."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "8",
+        "id": "LIRR-8",
+        "name": "West Hempsted",
+        "color": "#00A1DE",
+        "textColor": "#121212",
+        "description": "Transit service travels between Valley Stream and West Hempstead, operating with third-rail electrification on at-grade alignment."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "9",
+        "id": "LIRR-9",
+        "name": "Port Washington",
+        "color": "#C60C30",
+        "textColor": "#FFFFFF",
+        "description": "Transit service runs from Woodside to Port Washington using full electrification on mostly at-grade track with occasional viaducts or tunnels."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "10",
+        "id": "LIRR-10",
+        "name": "Port Jefferson Branch",
+        "color": "#006EC7",
+        "textColor": "#FFFFFF",
+        "description": "Transit service spans from Hicksville to Port Jefferson, with electrification up to Huntington and diesel service beyond, primarily on at-grade track."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "11",
+        "id": "LIRR-11",
+        "name": "Belmont Park",
+        "color": "#60269E",
+        "textColor": "#FFFFFF",
+        "description": "Transit service is a short spur from the Main Line near Queens Village to Belmont Park, operating under third-rail electrification."
+    },
+    {
+        "agency": "LIRR",
+        "designation": "12",
+        "id": "LIRR-12",
+        "name": "City Terminal Zone",
+        "color": "#4D5357",
+        "textColor": "#FFFFFF",
+        "description": "Transit service encompasses the routes west of Jamaica into Penn Station, Grand Central Madison, Atlantic Terminal, and Long Island City, using tunnels, cuts, embankments, and elevated structures."
+    },
+    {
+        "agency": "MNR",
+        "designation": "1",
+        "id": "MNR-1",
+        "name": "Hudson",
+        "color": "#009B3A",
+        "textColor": "#FFFFFF",
+        "description": "Transit service runs from Grand Central to Poughkeepsie along the Hudson River, with third-rail electrification up to Croton-Harmon and diesel service further north on mostly at-grade right-of-way."
+    },
+    {
+        "agency": "MNR",
+        "designation": "2",
+        "id": "MNR-2",
+        "name": "Harlem",
+        "color": "#0039A6",
+        "textColor": "#FFFFFF",
+        "description": "Transit service extends from Grand Central to Wassaic, operating with third-rail power to Southeast and diesel north of that point, largely on at-grade track."
+    },
+    {
+        "agency": "MNR",
+        "designation": "3",
+        "id": "MNR-3",
+        "name": "New Haven",
+        "color": "#EE0034",
+        "textColor": "#FFFFFF",
+        "description": "Transit service runs from Grand Central to New Haven using both third-rail and overhead catenary electrification, mostly on at-grade alignment with occasional tunnels and viaducts."
+    },
+    {
+        "agency": "MNR",
+        "designation": "4",
+        "id": "MNR-4",
+        "name": "Port Jervis",
+        "color": "#FF7900",
+        "textColor": "#FFFFFF",
+        "description": "Transit service extends from Hoboken to Port Jervis, operating with diesel service over mostly at-grade track, with structural features like tunnels and viaducts."
+    },
+    {
+        "agency": "MNR",
+        "designation": "5",
+        "id": "MNR-5",
+        "name": "Pascack Valley",
+        "color": "#8E258D",
+        "textColor": "#FFFFFF",
+        "description": "Transit service connects Hoboken and Spring Valley, running on diesel power over principally at-grade track with passing sidings."
+    },
+    {
+        "agency": "BT",
+        "designation": "BW",
+        "id": "BT-BW",
+        "name": "Bronx-Whitestone Bridge",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Bridge spans approximately 2.3 miles connecting the Bronx and Queens. Opened in 1939."
+    },
+    {
+        "agency": "BT",
+        "designation": "CB",
+        "id": "BT-CB",
+        "name": "Cross Bay Bridge",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Bridge spans approximately 3 miles connecting Broad Channel and the Rockaway Peninsula in Queens. Opened in 1970."
+    },
+    {
+        "agency": "BT",
+        "designation": "HC",
+        "id": "BT-HC",
+        "name": "Hugh Carey Tunnel",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Tunnel connects Brooklyn and Manhattan under the East River along approximately 2 miles. Opened in 1950."
+    },
+    {
+        "agency": "BT",
+        "designation": "HH",
+        "id": "BT-HH",
+        "name": "Hentry Hudson Bridge",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Bridge spans approximately 0.7 miles connecting Manhattan and the Bronx. Opened in 1936."
+    },
+    {
+        "agency": "BT",
+        "designation": "MP",
+        "id": "BT-MP",
+        "name": "Marine Parkway Bridge",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Bridge spans approximately 0.7 miles connecting Brooklyn and Queens. Opened in 1937."
+    },
+    {
+        "agency": "BT",
+        "designation": "QM",
+        "id": "BT-QM",
+        "name": "Queens Midtown Tunnel",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Tunnel connects Queens and Manhattan under the East River along approximately 1.2 miles. Opened in 1940."
+    },
+    {
+        "agency": "BT",
+        "designation": "RK",
+        "id": "BT-RK",
+        "name": "RFK Bridge",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Bridge complex spans approximately 3 miles connecting Manhattan, Queens, and the Bronx. Opened in 1936."
+    },
+    {
+        "agency": "BT",
+        "designation": "TN",
+        "id": "BT-TN",
+        "name": "Throgs Neck Bridge",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Bridge spans approximately 2.1 miles connecting the Bronx and Queens. Opened in 1961."
+    },
+    {
+        "agency": "BT",
+        "designation": "VN",
+        "id": "BT-VN",
+        "name": "Verezzanno-Narrows Bridge",
+        "color": "#000000",
+        "textColor": "#FFFFFF",
+        "description": "Bridge spans approximately 2.5 miles connecting Brooklyn and Staten Island. Opened in 1964."
+    }
+]

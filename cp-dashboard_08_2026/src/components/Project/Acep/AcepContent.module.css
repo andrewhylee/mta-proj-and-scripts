@@ -1,0 +1,274 @@
+.header {
+  display: flex;
+  padding: 16px 20px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  color: var(--white-color);
+
+  background: var(--dark-blue-color);
+}
+
+.closeButton {
+  color: var(--white-color);
+}
+
+.closeButton:hover {
+  background: var(--blue-color);
+}
+
+.header h2 {
+  width: 100%;
+}
+
+.serviceGroup {
+  font-weight: 450;
+}
+
+.serviceItem {
+  font-weight: 700;
+}
+
+.modalContent {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  align-self: stretch;
+}
+
+.modalContentHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.modalContentHeaderLine {
+  display: flex;
+  align-items: center;
+}
+
+.modalContentHeaderTitle {
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: var(--blue-color);
+}
+
+.modalContentHeaderDescriptionContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.projectDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+  align-self: stretch;
+  flex: 1 0 0;
+}
+
+.projectDetailText {
+  font-weight: 450;
+  font-size: 1rem;
+}
+
+.modalContentHeaderDescription {
+  flex: 1 0 0;
+  width: 700px;
+  font-family: var(--font-display);
+}
+
+.modalContentProjectLocationsContainer {
+  width: 100%;
+  align-self: stretch;
+}
+
+.modalContentHeaderText {
+  font-weight: 700;
+  font-size: 1.125rem;
+  white-space: nowrap;
+}
+
+.agenciesContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 10px;
+}
+
+.projectLink {
+  color: var(--blue-color);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: var(--font-display);
+}
+
+.tableHeader {
+  background-color: var(--yellow-color);
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 1.125rem;
+  white-space: wrap;
+}
+
+.row {
+  font-weight: 450;
+  font-size: 1rem;
+  font-family: var(--font-display);
+  text-align: start;
+}
+
+.blueTableHeader {
+  background-color: var(--secondary-blue);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 1rem;
+  white-space: wrap;
+}
+
+.blueTableRow {
+  font-weight: 450;
+  font-size: 1rem;
+  font-family: var(--font-display);
+  color: var(--black-color);
+  background-color: var(--secondary-active-blue-faded);
+  text-align: center;
+}
+
+.blueTableRowBold {
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: var(--font-display);
+  color: var(--black-color);
+  background-color: var(--secondary-active-blue-faded);
+}
+
+.grayTableHeader {
+  background-color: var(--header-gray-background);
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 1rem;
+  white-space: normal;
+}
+
+.lightGrayCell {
+  background-color: var(--primary-light-gray-background);
+}
+
+.contentContainer {
+  width: 100%;
+}
+
+.backButton {
+  color: var(--secondary-gray-color);
+  font-weight: 700;
+}
+
+.hoverCard {
+  background-color: var(--blue-color);
+}
+
+.hoverText {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.infoIcon {
+  color: var(--blue-color);
+}
+
+.acepNarrative {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .modalContent {
+    padding: 20px 4px;
+    gap: 20px;
+  }
+
+  .modalContentHeader {
+    gap: 5px;
+  }
+
+  .modalContentHeaderDescription {
+    width: 100%;
+    font-size: 0.75rem;
+  }
+
+  .modalContentProjectLocationsContainer {
+    width: 100%;
+  }
+
+  .modalContentHeaderText {
+    font-size: 0.75rem;
+  }
+
+  .projectLink {
+    font-size: 0.625rem;
+  }
+
+  .blueTableHeader {
+    font-size: 0.625rem;
+  }
+
+  .grayTableHeader {
+    font-size: 0.625rem;
+  }
+
+  .blueTableRow {
+    font-size: 0.625rem;
+  }
+
+  .row {
+    font-size: 0.625rem;
+  }
+
+  .blueTableRowBold {
+    font-size: 0.625rem;
+  }
+
+  .modalContentHeaderDescriptionContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .projectDetailsContainer {
+    gap: 0px;
+  }
+
+  .projectDetailText {
+    font-size: 0.625rem;
+  }
+
+  .modalContentHeaderTitle {
+    font-size: 0.75rem;
+  }
+
+  .backButton {
+    font-size: 0.75rem;
+  }
+}

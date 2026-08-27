@@ -1,0 +1,27 @@
+.initiativesContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-between; /* Distribute items evenly with space between */
+  gap: 15px; /* Add spacing between cards */  
+  max-width: 100%; /* Prevent the container from exceeding the viewport width */
+  background-color: inherit; /* Inherit background color */
+}
+
+.initiativesContainer > * {
+  flex: 1 1 calc(33.333% - 41px); /* Each card takes 1/3 of the row minus the gap */
+  max-width: calc(33.333% - 41px); /* Ensure cards don't exceed 1/3 of the row */
+}
+
+@media (max-width: 1024px) {
+  .initiativesContainer > * {
+    flex: 1 1 calc(50% - 41px); /* 2 cards per row for tablets */
+    max-width: calc(50% - 41px);
+  }
+}
+
+@media (max-width: 850px) {
+  .initiativesContainer > * {
+    flex: 1 1 calc(50% - 11px); /* 2 cards per row for tablets */
+    max-width: calc(50% - 11px);
+  }  
+}

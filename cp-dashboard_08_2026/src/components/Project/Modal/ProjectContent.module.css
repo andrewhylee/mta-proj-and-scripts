@@ -1,0 +1,400 @@
+.header {
+  display: flex;
+  padding: 16px 20px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  color: var(--white-color);
+
+  background: var(--blue-color, #f2f2f2);
+}
+
+.header h2 {
+  width: 100%;
+}
+
+.serviceGroup {
+  font-weight: 450;
+}
+
+.serviceItem {
+  font-weight: 700;
+}
+
+.initiativeTag{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 8px;
+  padding: .35rem .6rem;
+  border-radius: 9999px;
+  border: 1px solid #c6e2ff;
+  background: #eaf4ff;
+  color: #0b4f8a;
+  width: fit-content;
+}
+
+.initiativesContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.modalContent {
+  display: flex;
+  padding: 26px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  align-self: stretch;
+}
+
+.modalContentHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.modalContentHeaderLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modalContentHeaderTitle {
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: var(--blue-color);
+}
+
+.modalContentHeaderDescriptionContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.projectDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+  align-self: stretch;
+  flex: 1 0 0;
+}
+
+.projectDetailText {
+  font-weight: 450;
+  font-size: 1rem;
+}
+
+.modalContentHeaderDescription {
+  flex: 1 0 0;
+  width: 700px;
+  font-family: var(--font-display);
+}
+
+.modalContentProjectLocationsContainer {
+  width: 100%;
+  align-self: stretch;
+}
+
+.modalContentHeaderText {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.plannedPhaseMessage {
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: green;
+}
+
+.agenciesContainer {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+
+.pill {
+  background-color: var(--secondary-gray-color, #808183);
+  color: var(--white-color);
+  font-weight: 700;
+}
+
+.agencyText {
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: var(--blue-color);
+}
+
+.pillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 10px;
+}
+
+.closeButton {
+  color: var(--white-color);
+}
+
+.closeButton:hover {
+  background: var(--blue-color);
+}
+
+.contentContainer {
+  width: 100%;
+}
+
+.mapContainer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1 0 0;
+  height: 387.779px;
+  align-self: stretch;
+
+  /* SHADOW */
+  box-shadow: 4px 4px 10px 0px rgb(0 0 0 / 0.2);
+}
+
+.budgetScheduleContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.budgetContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  width: 100%;
+  border-radius: 15px;
+
+  /* SHADOW */
+  box-shadow: 4px 4px 10px 0px rgb(0 0 0 / 0.2);
+}
+
+.budgetScheduleHeaderIndicator {
+  display: inline-flex;
+  padding: 6px 10px 6px 8px;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 16px;
+  border: 2px solid var(--white-color);
+  background: var(--secondary-green, #008250);
+}
+
+.scheduleContainer {
+  width: 100%;
+}
+
+.scheduleContent {
+  display: flex;
+  padding: 0px 10px 20px;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  flex: 1 0 0;
+  align-self: stretch;
+
+  border-radius: 0px 0px 15px 15px;
+  background: var(--secondary-active-blue-faded);
+}
+
+.scheduleBudgetHeaderLeft {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.budgetContainerHeader {
+  display: flex;
+  padding: 10px 14px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  color: var(--white-color);
+  font-weight: 700;
+
+  border-radius: 15px 15px 0px 0px;
+  background: var(--secondary-blue);
+}
+
+.budgetContent {
+  display: flex;
+  padding: 20px 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  flex: 1 0 0;
+  align-self: stretch;
+
+  border-radius: 0px 0px 15px 15px;
+  background: var(--secondary-active-blue-faded);
+}
+
+.acepContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  width: 100%;
+}
+
+.acepTitle {
+  font-weight: 700;
+  font-size: 0.75rem;
+  display: flex;
+  padding-top: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.acepGrid {
+  display: grid;
+  width: 374px;
+  row-gap: 15px;
+  column-gap: 15px;
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.acepAdditionalContainer {
+  grid-column: 1 / -1;
+}
+
+.acepAdditionalTitle {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin: 8px 0;
+}
+
+.acepPieChartContainer {
+  height: 51px;
+  width: 51px;
+}
+
+
+
+@media screen and (max-width: 860px) {
+  .modalContent {
+    padding: 20px 4px;
+    gap: 20px;
+  }
+
+  .modalContentHeader {
+    gap: 5px;
+  }
+
+  .modalContentHeaderDescriptionContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .modalContentHeaderTitle {
+    font-size: 1rem;
+  }
+
+  .modalContentHeaderDescription {
+    width: 100%;
+    font-size: 0.625rem;
+  }
+
+  .modalContentProjectLocationsContainer {
+    width: 100%;
+  }
+
+  .modalContentHeaderText {
+    font-size: 0.625rem;
+  }
+
+  .projectsTableHeader {
+    display: none;
+  }
+
+  .projectDetailsContainer {
+    gap: 4px;
+  }
+
+  .projectDetailText {
+    font-weight: 450;
+    font-size: 0.625rem;
+  }
+
+  .agenciesContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .agenciesText {
+    font-size: 0.625rem;
+    font-weight: 700;
+  }
+
+  /* .mapContainer {
+    height: 100px;
+  } */
+
+  .budgetContainerHeader {
+    padding: 6px 10px;
+    gap: 8px;
+  }
+
+  .budgetContent {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    align-self: stretch;
+  }
+
+  .acepContainer {    
+    gap: 10px;
+  }
+
+  .acepGrid {     
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .acepPieChartContainer {
+    height: 70px;
+    width: 70px;
+  }
+
+  .budgetScheduleContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .budgetScheduleHeaderIndicator{
+    padding: 4px 8px;
+    font-size: 0.625rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .acepGrid {
+    width: 240px;
+  }
+}

@@ -1,0 +1,67 @@
+.map {
+  display: flex;
+  flex-grow: 1;
+  min-height: 250px; /* Optional, allows content to overflow */
+  height: calc(
+    800px
+  ); /* Adjust as needed (includes: header, footer, padding, map header, etc ..) */
+  /* height: 100vh; */
+  /* max-height: 485px; */
+  width: 100%; /* Ensures map fills the width */
+  flex-direction: column;
+  min-width: auto;
+}
+
+.zoomDisplay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgb(255 255 255 / 0.8);
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tooltip {  
+   display: inline-block;
+  height: auto;
+  width: auto;
+  z-index: 1000;
+  background-color: var(--blue-color);
+  color: #fff;  
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  transform: translateX(3%);
+  pointer-events: none;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgb(255 255 255 / 0.9);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.2);
+}
+
+@media screen and (max-width: 1024px) {
+  .map {
+    height: calc(
+      100vh - 525px
+    ); /* Adjust as needed (includes: header, footer, padding, map header, etc ..) */
+    /* max-height: 500px; */
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .map {
+    height: calc(
+      100vh - 350px
+    ); /* Adjust as needed (includes: header, footer, padding, map header, etc ..) */
+    /* max-height: 500px; */
+    width: 100%;
+  }
+}

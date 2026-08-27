@@ -1,0 +1,40 @@
+.comboboxOptions {
+  background-color: var(--blue-color);
+  color: white;
+}
+
+.comboboxOption {
+  border-bottom: 1px solid white;
+  font-weight: 700;
+  font-size: 1.375rem;
+}
+
+.comboboxOption:hover {
+  background-color: var(--dark-blue-color);
+}
+
+/* Set background color for the selected combobox option */
+.comboboxOption[data-selected] {
+  background-color: var(--dark-blue-color);
+}
+
+.inputBase {
+  min-width: 280px;
+  max-width: fit-content;
+  background: var(--yellow-color); /* Yellow background */
+  color: black; /* Black text for contrast */
+  font-weight: 700; /* Optional: Make text bold */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  cursor: pointer; /* Show pointer cursor */
+}
+
+.inputBase:hover {
+  background-color: var(--yellow-color); /* Darker yellow on hover */
+}
+
+.inputBase * {
+  background-color: inherit; /* Inherit the background color from the parent */
+  color: inherit; /* Inherit the text color from the parent */
+  font-size: 1.375rem;
+}

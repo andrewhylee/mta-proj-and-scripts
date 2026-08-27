@@ -1,0 +1,25 @@
+.searchContainer {
+  display: flex;
+  height: 40px;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.searchInput input {
+  background-color: #fff;
+  color: #000;  
+  height: 39px;
+  border-radius: 0px;
+  width: 275px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .searchInput {
+    width: 225px;
+  }
+
+  .searchInput input {
+    width: 100%;
+    height: 40px;
+  }
+}

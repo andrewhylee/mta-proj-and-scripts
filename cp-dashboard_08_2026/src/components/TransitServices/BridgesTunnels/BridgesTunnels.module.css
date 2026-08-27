@@ -1,0 +1,26 @@
+.dataCard {
+  display: flex;
+  padding: 40px 30px;
+  align-items: flex-start;
+  gap: 30px;
+  flex: 1 0 0;
+}
+
+.dividerContainer {
+  height: 392px;
+  overflow: hidden;
+}
+
+.icon {
+  height: 20.625px;
+  flex-shrink: 0;
+  align-self: stretch;
+  aspect-ratio: 22/20.63;
+}
+
+@media screen and (max-width: 800px) {
+  .icon {
+    height: 12px;
+    aspect-ratio: 13/12;
+  }
+}

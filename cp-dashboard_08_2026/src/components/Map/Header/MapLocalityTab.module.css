@@ -1,0 +1,31 @@
+.mapLocalityTabs {
+  display: flex;
+  gap: 6px;
+}
+
+.mapLocalityTabs button {
+  background-color: var(--blue-color);
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: 0px;
+  color: white;
+  padding: 14px 14px 11px;
+  height: fit-content;
+  width: fit-content;
+
+  &:first-of-type {
+    background-color: var(--dark-blue-color);
+    border-color: var(--dark-blue-color);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .mapLocalityTabs {
+    width: 100%;
+  }
+
+  .mapLocalityTabs button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "category": "New York City Transit",
+        "description": "New York City Transit (NYCT), together with Staten Island Railway (SIR) and MTA Bus, operates the most extensive and highest ridership subway and bus systems in the United States. We operate 24 hours a day, 365 days a year. Our trains, buses, stations, and all auxiliary equipment and infrastructure—like rail yards, bus depots, signals, power, and communication systems—are the foundation of our network, and require substantial and sustained capital investment to address historical underinvestment and to allow us to deliver the frequent and reliable service our riders have come to expect."
+    },
+    {
+        "category": "Regional Rail",
+        "description": "The MTA's Regional Rail network includes the Long Island Rail Road and Metro-North Railroad, two of the busiest and most expansive commuter railroads in the country. LIRR stretches nearly 120 miles from Montauk to Manhattan and carries up to 250,000 riders on weekdays, while Metro-North connects New York City to communities as far north as Dutchess County and east into Connecticut, with additional service west of the Hudson. Together, these systems serve hundreds of thousands of daily riders and rely on infrastructure that, in some cases, dates back over a century. To meet the evolving needs of our region and deliver safe, reliable service, we must continue to invest in renewing and modernizing our assets."
+    },
+    {
+        "category": "Bridges and Tunnels",
+        "description": "MTA Bridges and Tunnels (B&T) was established in 1933 as the Triborough Bridge Authority. Today, B&T is among the largest of the nation's bridge and tunnel tolling authorities, in terms of both revenue and traffic volume, operating seven bridges and two tunnels in New York City, connecting the boroughs of Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. In 2022, B&T collected more than $2.3 billion in revenue. With over 60% of this toll revenue dedicated to the MTA’s mass transit operations, B&T performs a unique and vital function in support of regional mobility."
+    }
+]
